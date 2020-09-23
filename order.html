@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Coffee Start Here</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="find-us.html">Find us</a></li>
+      </ul>
+    </header>
+    <main>
+      <h1 class="text-center">BUKA HARIMU DENGAN SEGELAS KOPI DI PAGI HARI</h1>
+      <h2 class="text-center">#MedangGasik Lebih hemat</h2>
+      <img src="header.jpg" />
+      <br />
+      <div class="text-center"><strong>Place Your Order</strong></div>
+      <br />
+      <form action="submit.html">
+        <select class="option" name="option" required>
+          <option value="" disabled selected>Choose your option</option>
+          <option value="latte">Latte</option>
+          <option value="manual">Manual Brew</option>
+        </select>
+        <input
+          class="option"
+          type="number"
+          value="jumlah pesanan"
+          min="1"
+          required
+        />
+        <br />
+        <input class="option" type="submit" />
+      </form>
+    </main>
+  </body>
+  <footer>
+    <div>Rizky yoditia @ 2020</div>
+  </footer>
+</html>
