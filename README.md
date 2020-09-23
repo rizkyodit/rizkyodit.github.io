@@ -1,1 +1,1 @@
-# rizkyodit.github.io.
+# rizkyodit.github.io
